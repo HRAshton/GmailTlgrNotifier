@@ -39,10 +39,10 @@ There are two ways to deploy an application: from ts sources and from built scri
 
 Написан на Google Apps Script (с typescript). По триггеру (лучший вариант на текущий момент - раз в минуту) получает список непрочитанных сообщений и отправляет сообщение в Telegram от имени бота. В сообщении отображается отправитель, тема письма и ссылка на письмо. Ссылка ведет на страницу просмотра письма (также реализована на GAS). Там отображается отправитель, получатель, получатель копии (СС) и тело письма с сохранением HTML-форматирования.
 
-Пример оповещения:
+Пример оповещения:  
 ![NotificationExample](https://github.com/HRAshton/GmailTlgrNotifier/blob/master/docs/NotificationExample.jpg)
 
-Пример email на странице просмотра:
+Пример email на странице просмотра:  
 ![EmailViewerExample](https://github.com/HRAshton/GmailTlgrNotifier/blob/master/docs/EmailViewerExample.jpg)
 
 ## Инструкция по установке
