@@ -1,0 +1,25 @@
+{
+  "name": "gmail2tlgr",
+  "version": "1.0.0",
+  "description": "Bot that reports new emails and attaches a link for quick viewing",
+  "main": "-",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.16"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "telegram",
+    "email",
+    "gmail",
+    "google",
+    "apps",
+    "script",
+    "bot",
+    "gas"
+  ],
+  "author": "HRAshton",
+  "license": "MIT"
+}

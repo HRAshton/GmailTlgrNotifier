@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <style>
+        tr td:nth-of-type(odd) {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>From:</td>
+            <td colspan="3"><?= data.From ?></td>
+        </tr>
+        <tr>
+            <td>To:</td>
+            <td><?= data.To ?></td>
+            <td><?= (!!data.Copy ? ' | Copy: ' : '') ?></td>
+            <td><?= data.Copy ?></td>
+        </tr>
+        <tr>
+            <td>Subject:</td>
+            <td colspan="3"><?= data.Subject ?></td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <div id="msg"></div>
+    <script>
+        document.getElementById("msg").innerHTML = "<?= data.Body ?>";
+    </script>
+</body>
+
+</html>
