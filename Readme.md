@@ -4,10 +4,10 @@
 
 Written in Google Apps Script (with typescript). By trigger (the best option at the moment is once a minute) receives a list of unread messages and sends a message to Telegram on behalf of the bot. The message displays the sender, the subject and the link to the message. The link leads to the page for viewing the letter (also implemented on GAS). It displays the sender, recipient, recipient of a copy (CC) and the body of the message, preserving HTML formatting.
 
-Alert example:
+Notification example:  
 ![NotificationExample](https://github.com/HRAshton/GmailTlgrNotifier/blob/master/docs/NotificationExample.jpg)
 
-Example email on the view page:
+Example email on the view page:  
 ![EmailViewerExample](https://github.com/HRAshton/GmailTlgrNotifier/blob/master/docs/EmailViewerExample.jpg)
 
 ## Installation Instructions
